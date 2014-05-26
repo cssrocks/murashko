@@ -1,0 +1,178 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; vertical-align: baseline; }
+
+body, html { height: 100%; }
+
+img, fieldset, a img { border: none; }
+
+input[type="submit"], button { cursor: pointer; }
+input[type="submit"]::-moz-focus-inner, button::-moz-focus-inner { padding: 0; border: 0; }
+
+textarea { overflow: auto; }
+
+input, button { margin: 0; padding: 0; border: 0; }
+
+input, textarea, select, button, h1, h2, h3, h4, h5, h6, a, span, a:focus { outline: none; }
+
+ul, ol { list-style-type: none; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) { * { -webkit-text-size-adjust: none; } }
+table { border-spacing: 0; border-collapse: collapse; width: 100%; }
+
+@font-face { font-family: "Museo Sans Cyrl 500 Regular"; src: url("../fonts/museosanscyrl_500.eot"); src: url("../fonts/museosanscyrl_500.eot?#iefix") format("embedded-opentype"), url("../fonts/museosanscyrl_500.woff") format("woff"), url("../fonts/museosanscyrl_500.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "Museo Sans Cyrl 500 Italic"; src: url("../fonts/museosanscyrl_500_italic.eot"); src: url("../fonts/museosanscyrl_500_italic.eot?#iefix") format("embedded-opentype"), url("../fonts/museosanscyrl_500_italic.woff") format("woff"), url("../fonts/museosanscyrl_500_italic.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "Museo Sans Cyrl 700 Regular"; src: url("../fonts/museosanscyrl_700.eot"); src: url("../fonts/museosanscyrl_700.eot?#iefix") format("embedded-opentype"), url("../fonts/museosanscyrl_700.woff") format("woff"), url("../fonts/museosanscyrl_700.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: "Museo Slab 500 Regular"; src: url("../fonts/museo_slab_500.eot"); src: url("../fonts/museo_slab_500.eot?#iefix") format("embedded-opentype"), url("../fonts/museo_slab_500.woff") format("woff"), url("../fonts/museo_slab_500.ttf") format("truetype"); font-weight: normal; font-style: normal; }
+
+body { -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; font-family: "Museo Sans Cyrl 500 Regular", Georgia, Times, "Times New Roman", serif; font-size: 20px; color: #2d2f37; line-height: 30px; background: white; }
+
+a { color: #00d89c; text-decoration: none; }
+a:hover { color: #009e72; }
+
+strong { font-weight: normal; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: normal; }
+
+.h1 { font-size: 60px; }
+
+.h2 { font-size: 48px; }
+
+.h3 { font-size: 40px; }
+
+.h6 { font-size: 20px; }
+
+.btn { display: inline-block; vertical-align: top; text-decoration: none; }
+
+.btn_app { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -411px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_app { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -271px; height: 48px; width: 155px; } }
+
+.btn_gp { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -639px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_gp { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -449px; height: 48px; width: 155px; } }
+
+.btn_win { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -827px; background-repeat: no-repeat; height: 48px; width: 240px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_win { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -800px; height: 48px; width: 240px; } }
+
+.btn_link { font-size: 20px; color: #2d2f37; border-bottom: 1px solid rgba(45, 47, 55, 0.4); text-decoration: none; line-height: 24px; }
+.btn_link:hover { color: #00d89c; border-color: rgba(0, 216, 156, 0.4); }
+
+#bgr-header, #bgr-resume, #bgr-footer, #bgr-scroll, .work:before { -ms-transform: rotate(-20deg); -webkit-transform: rotate(-20deg); transform: rotate(-20deg); }
+
+#bgr-header { position: absolute; top: -83px; left: 50%; margin-left: -1210px; width: 4000px; background: #fefe5e; height: 152px; }
+
+#bgr-resume { position: absolute; top: -200px; left: 50%; margin-left: -1210px; width: 4000px; background: #72f7d2; height: 1px; }
+
+#bgr-footer { position: absolute; top: -212px; left: 50%; margin-left: -1210px; width: 4000px; background: #fefe5e; height: 152px; }
+
+#bgr-scroll { position: absolute; top: -260px; left: 50%; margin-left: -1210px; width: 4000px; background: #72f7d2; height: 1px; }
+
+#viewport { overflow-x: hidden; }
+
+.out { position: relative; overflow: hidden; width: 100%; }
+
+.container { position: relative; z-index: 1; width: 1000px; margin-left: auto; margin-right: auto; }
+
+.nav { position: fixed; top: 19px; left: 0; width: 100%; text-align: center; z-index: 100; display: none; }
+.nav li { display: inline-block; padding: 0 27px; line-height: 24px; letter-spacing: 1px; }
+.nav a { display: block; font-size: 20px; text-transform: uppercase; }
+
+.header { position: relative; text-align: center; padding-top: 247px; margin-bottom: 66px; }
+.header .h1 { font-family: "Museo Slab 500 Regular", Arial, "Helvetica Neue", Helvetica, sans-serif; text-transform: uppercase; line-height: 72px; letter-spacing: 4px; }
+.header p { font-family: "Museo Sans Cyrl 500 Italic", Georgia, Times, "Times New Roman", serif; line-height: 15px; }
+
+.scroll-down { display: block; margin-top: 242px; margin-left: auto; margin-right: auto; position: relative; text-transform: uppercase; line-height: 30px; letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+.scroll-down span { display: block; }
+
+.footer { position: relative; padding-top: 100px; }
+.footer .container { padding-bottom: 70px; }
+.footer .h3 { text-align: center; color: #22232a; text-transform: uppercase; line-height: 48px; letter-spacing: 4px; margin-bottom: 20px; font-family: "Museo Slab 500 Regular", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+.footer .copy { display: none; }
+
+.social { text-align: center; font-size: 0; }
+.social li { display: inline-block; vertical-align: top; padding: 0 10px; }
+.social a { display: block; }
+.social .social__facebook a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1238px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__facebook a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1178px; height: 48px; width: 48px; } }
+.social .social__linkedin a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1180px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__linkedin a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1125px; height: 48px; width: 48px; } }
+.social .social__mail a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1122px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__mail a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1072px; height: 48px; width: 48px; } }
+
+.resume { position: relative; text-align: center; margin-bottom: 53px; padding-top: 100px; }
+.resume article { margin: 0 145px; }
+.resume .h2 { text-transform: uppercase; color: #22232a; letter-spacing: 4px; margin-bottom: 14px; }
+.resume .h6 { text-transform: uppercase; color: #22232a; line-height: 24px; letter-spacing: 1px; margin-bottom: 34px; }
+.resume p { color: #96a1af; line-height: 30px; margin-bottom: 16px; }
+.resume .resume__txt { margin-bottom: 105px; }
+.resume .resume__txt .h2 { letter-spacing: 4px; font-family: "Museo Slab 500 Regular", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+.resume .resume__txt .h6 { line-height: 24px; letter-spacing: 1px; }
+
+.about p { position: relative; color: #22232a; z-index: 2; }
+.about .about__ul { *zoom: 1; margin: 0 37px; }
+.about .about__ul:after { content: " "; display: table; clear: both; }
+.about .about__col { position: relative; float: left; width: 50%; padding: 52px 0 68px; text-align: center; text-transform: uppercase; }
+.about .about__col strong { display: block; font-family: "Museo Sans Cyrl 700 Regular", Georgia, Times, "Times New Roman", serif; }
+.about .about__col_years strong { font-size: 20px; line-height: 24px; letter-spacing: 4px; }
+.about .about__years { position: absolute; top: -50px; left: 0; right: 0; color: #72f7d2; font-size: 192px; line-height: 230px; }
+.about .about__col_what { font-size: 16px; line-height: 20px; letter-spacing: 1px; }
+.about .about__col_what strong { font-size: 24px; line-height: 28px; letter-spacing: 2px; }
+.about .about__col_lang, .about .about__col_where { font-size: 16px; line-height: 28px; letter-spacing: 1px; }
+.about .about__col_lang strong, .about .about__col_where strong { font-size: 24px; line-height: 21px; letter-spacing: 2px; }
+.about .icon { position: absolute; left: 50%; top: 50%; }
+.about .icon_platforms { margin-top: -129px; margin-left: -165px; background: url('../img/icons-sf45a57e932.png') 0 -885px no-repeat; width: 330px; height: 128px; }
+.about .icon_globe { margin-top: -82px; margin-left: -59px; background: url('../img/icons-sf45a57e932.png') 0 -152px no-repeat; width: 119px; height: 119px; }
+.about .icon_russia { margin-top: -113px; margin-left: -120px; background: url('../img/icons-sf45a57e932.png') 0 0 no-repeat; width: 240px; height: 142px; }
+
+.works { padding-top: 100px; margin-bottom: 96px; }
+
+.work { position: relative; color: #96a1af; *zoom: 1; }
+.work:after { content: " "; display: table; clear: both; }
+.work:before { position: absolute; top: -203px; left: 50%; margin-left: -1210px; width: 4000px; background: #f4f7f9; border: 1px solid #d7dbdf; border-width: 1px 0; height: 280px; content: ""; }
+.work .work__main { *zoom: 1; margin-bottom: 175px; }
+.work .work__main:after { content: " "; display: table; clear: both; }
+.work .work__info { position: absolute; width: 295px; top: 297px; left: 20px; }
+.work .work__heading { color: #2d2f37; }
+.work .work__title { font-size: 24px; line-height: 32px; letter-spacing: 1px; }
+.work .work__title span { color: #f9517f; }
+.work .work__subtitle { text-transform: uppercase; margin-bottom: 20px; font-family: "Museo Slab 500 Regular", Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 32px; line-height: 40px; letter-spacing: 2px; }
+.work .work__desc { font-family: "Museo Sans Cyrl 500 Italic", Georgia, Times, "Times New Roman", serif; font-size: 20px; line-height: 24px; }
+.work .work__media { position: relative; margin-left: 310px; margin-right: 310px; text-align: center; }
+.work .work__pic { display: inline-block; vertical-align: top; text-align: center; }
+.work .work__pic img { display: inline-block; vertical-align: top; font-size: 0; }
+.work .work__href { position: absolute; top: 100%; margin-top: 32px; left: 0; right: 0; text-align: center; }
+.work .work__meta { position: absolute; top: 0; right: 0; width: 270px; text-align: center; text-transform: uppercase; font-family: "Museo Sans Cyrl 700 Regular", Georgia, Times, "Times New Roman", serif; }
+.work .work__meta p { position: relative; font-size: 20px; line-height: 24px; letter-spacing: 2px; }
+.work .work__meta small { display: block; font-size: 16px; line-height: 20px; letter-spacing: 1px; }
+
+.work_iphone { margin-top: 34px; }
+.work_iphone:before { top: -173px; }
+.work_iphone .work__meta { top: 141px; right: 43px; }
+.work_iphone .work__meta:before { position: absolute; top: -60px; left: 50%; margin-left: -49px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -697px; background-repeat: no-repeat; height: 120px; width: 98px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_iphone .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -853px; height: 120px; width: 98px; } }
+.work_iphone .work__info { top: 326px; }
+
+.work_win { margin-top: 21px; }
+.work_win:before { top: -155px; }
+.work_win .work__meta { top: 159px; right: 8px; }
+.work_win .work__meta:before { position: absolute; top: -53px; left: 50%; margin-left: -45px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1023px; background-repeat: no-repeat; height: 89px; width: 90px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_win .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -978px; height: 89px; width: 90px; } }
+.work_win .work__info { top: 324px; }
+.work_win .work__href { margin-top: 20px; }
+
+.work_android { margin-top: 8px; }
+.work_android:before { top: -145px; }
+.work_android .work__meta { top: 143px; right: 9px; }
+.work_android .work__meta:before { position: absolute; top: -58px; left: 50%; margin-left: -60px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -281px; background-repeat: no-repeat; height: 120px; width: 120px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_android .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -324px; height: 120px; width: 120px; } }
+.work_android .work__info { top: 355px; }
+
+.work_website { margin-top: 109px; }
+.work_website:before { top: -238px; }
+.work_website .work__info { top: 259px; left: 20px; }
+.work_website .work__meta { text-transform: none; top: 18px; right: -3px; width: 275px; }
+.work_website .work__meta p { font-size: 24px; line-height: 28px; letter-spacing: 2px; }
+.work_website .work__meta small { font-size: 16px; line-height: 20px; letter-spacing: 1px; margin-top: 9px; }
+.work_website .work__meta:before { position: absolute; top: -54px; left: 50%; margin-left: -63.5px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -469px; background-repeat: no-repeat; height: 160px; width: 127px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_website .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -502px; height: 160px; width: 127px; } }
+.work_website .work__href { margin-top: 40px; }

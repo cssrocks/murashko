@@ -1,0 +1,549 @@
+body
+	+font-smoothing
+	font-family: $font-base
+	font-size: $size-base
+	color: $color-base
+	line-height: 30px
+	background: #fff
+
+// default styles
+
+a
+	color: $green
+	text-decoration: none
+	&:hover
+		color: $green-dark
+
+strong
+	font-weight: normal
+
+// ==========================================================================
+// Headings
+// ==========================================================================
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6
+	font-weight: normal
+
+.h1
+	font-size: $size-h1
+.h2
+	font-size: $size-h2
+.h3
+	font-size: $size-h3
+.h6
+	font-size: $size-h6
+
+// ==========================================================================
+// Buttons
+// ==========================================================================
+
+.btn
+	display: inline-block
+	vertical-align: top
+	text-decoration: none
+.btn_app
+	+sr(app)
+.btn_gp
+	+sr(gp)
+.btn_win
+	+sr(win)
+.btn_link
+	font-size: $size-m
+	color: $dark
+	border-bottom: 1px solid $dark-light
+	text-decoration: none
+	line-height: 24px
+	&:hover
+		color: $green
+		border-color: $green-light
+
+// ==========================================================================
+// Rotated lines
+// ==========================================================================
+
+%rotate
+	+rotate(-20)
+	// +rotate(0)
+	// display: none
+
+// Header line
+// ==========================================================================
+
+#bgr-header
+	@extend %rotate
+	position: absolute
+	top: -83px
+	left: 50%
+	margin-left: -1210px
+	width: 4000px
+	background: $bgr-yellow
+	height: 152px
+
+// Resume line
+// ==========================================================================
+
+#bgr-resume
+	@extend %rotate
+	position: absolute
+	// top: -257px
+	top: -200px
+	left: 50%
+	margin-left: -1210px
+	width: 4000px
+	background: $bgr-green
+	height: 1px
+
+// Footer line
+// ==========================================================================
+
+#bgr-footer
+	@extend %rotate
+	position: absolute
+	// top: -270px
+	top: -212px
+	left: 50%
+	margin-left: -1210px
+	width: 4000px
+	background: $bgr-yellow
+	height: 152px
+
+// Scroll line
+// ==========================================================================
+
+#bgr-scroll
+	@extend %rotate
+	position: absolute
+	top: -260px
+	left: 50%
+	margin-left: -1210px
+	width: 4000px
+	background: $bgr-green
+	height: 1px
+
+// Main wrapper
+// ==========================================================================
+
+#viewport
+	overflow-x: hidden
+
+.out
+	position: relative
+	overflow: hidden
+	width: 100%
+	// height: 100%
+	// to hide horizontal lines
+	// -ms-overflow-x: hidden
+	// overflow-x: hidden
+	// to hide horizontal line after footer
+	// margin-bottom: -200px
+	// margin-bottom: -330px
+
+// Main container
+// ==========================================================================
+
+.container
+	position: relative
+	z-index: 1
+	width: 1000px
+	margin-left: auto
+	margin-right: auto
+
+// ==========================================================================
+// Site navigation
+// ==========================================================================
+
+.nav
+	position: fixed
+	top: 19px
+	left: 0
+	width: 100%
+	text-align: center
+	z-index: 100
+	display: none
+	li
+		display: inline-block
+		padding: 0 27px
+		line-height: 24px
+		letter-spacing: 1px
+	a
+		display: block
+		font-size: $size-m
+		text-transform: uppercase
+
+// ==========================================================================
+// Header
+// ==========================================================================
+
+.header
+	position: relative
+	text-align: center
+	padding-top: 247px
+	// margin-bottom: 200px
+	margin-bottom: 66px
+	.h1
+		+ms500
+		text-transform: uppercase
+		line-height: 72px
+		letter-spacing: 4px
+	p
+		+msc500i
+		line-height: 15px
+
+// Smooth scroll to #works anchor
+// ==========================================================================
+
+.scroll-down
+	display: block
+	margin-top: 242px
+	margin-left: auto
+	margin-right: auto
+	position: relative
+	text-transform: uppercase
+	line-height: 30px
+	letter-spacing: 1px
+	+nosel
+	span
+		display: block
+
+// ==========================================================================
+// Footer
+// ==========================================================================
+
+.footer
+	position: relative
+	padding-top: 100px
+	.container
+		padding-bottom: 70px
+	.h3
+		text-align: center
+		color: $dark-darker
+		text-transform: uppercase
+		line-height: 48px
+		letter-spacing: 4px
+		margin-bottom: 20px
+		+ms500
+	.copy
+		display: none
+
+// Social links
+// ==========================================================================
+
+.social
+	text-align: center
+	// fighting the space between inline-block elements
+	font-size: 0
+	li
+		display: inline-block
+		vertical-align: top
+		padding: 0 10px
+	a
+		display: block
+	.social__facebook
+		a
+			+sr(facebook)
+	.social__linkedin
+		a
+			+sr(linkedin)
+	.social__mail
+		a
+			+sr(email)
+
+// ==========================================================================
+// Resume
+// ==========================================================================
+
+.resume
+	position: relative
+	text-align: center
+	// margin-bottom: 300px
+	margin-bottom: 53px
+	padding-top: 100px
+	article
+		margin: 0 145px
+	.h2
+		text-transform: uppercase
+		color: $dark-darker
+		letter-spacing: 4px
+		margin-bottom: 14px
+	.h6
+		text-transform: uppercase
+		color: $dark-darker
+		line-height: 24px
+		letter-spacing: 1px
+		margin-bottom: 34px
+	p
+		color: $gray
+		line-height: 30px
+		margin-bottom: 16px
+
+	.resume__txt
+		margin-bottom: 105px
+		.h2
+			letter-spacing: 4px
+			+ms500
+		.h6
+			line-height: 24px
+			letter-spacing: 1px
+
+// ==========================================================================
+// About
+// ==========================================================================
+
+.about
+	p
+		position: relative
+		color: $dark-darker
+		z-index: 2
+	.about__ul
+		+clr
+		margin: 0 37px
+	.about__col
+		position: relative
+		float: left
+		width: 50%
+		padding: 52px 0 68px
+		text-align: center
+		text-transform: uppercase
+		strong
+			display: block
+			+msc700
+	.about__col_years
+		strong
+			font-size: $size-m
+			line-height: 24px
+			letter-spacing: 4px
+	.about__years
+		position: absolute
+		top: -50px
+		left: 0
+		right: 0
+		color: $bgr-green
+		font-size: 192px
+		line-height: 230px
+	.about__col_what
+		font-size: $size-xs
+		line-height: 20px
+		letter-spacing: 1px
+		strong
+			font-size: $size-l
+			line-height: 28px
+			letter-spacing: 2px
+	.about__col_lang,
+	.about__col_where
+		font-size: $size-xs
+		line-height: 28px
+		letter-spacing: 1px
+		strong
+			font-size: $size-l
+			line-height: 21px
+			letter-spacing: 2px
+	.about__col_lang
+	.about__col_where
+	.icon
+		position: absolute
+		left: 50%
+		top: 50%
+	.icon_platforms
+		margin-top: -129px
+		margin-left: -165px
+		+s(platforms)
+	.icon_globe
+		margin-top: -82px
+		margin-left: -59px
+		+s(lang)
+	.icon_russia
+		margin-top: -113px
+		margin-left: -120px
+		+s(russia)
+
+// ==========================================================================
+// Works
+// ==========================================================================
+
+.works
+	padding-top: 100px
+	margin-bottom: 96px
+
+.work
+	position: relative
+	color: $gray
+	+clr
+	&:before
+		@extend %rotate
+		// display: none
+		position: absolute
+		// top: 50%
+		// margin-top: -545px
+		top: -203px
+		left: 50%
+		margin-left: -1210px
+		width: 4000px
+		background: $bgr-gray
+		border: 1px solid #d7dbdf
+		border-width: 1px 0
+		height: 280px
+		content: ""
+	.work__main
+		+clr
+		margin-bottom: 175px
+	.work__info
+		position: absolute
+		width: 295px
+		top: 297px
+		left: 20px
+	.work__heading
+		color: $dark
+	.work__title
+		font-size: $size-l
+		line-height: 32px
+		letter-spacing: 1px
+		span
+			color: $pink
+	.work__subtitle
+		text-transform: uppercase
+		margin-bottom: 20px
+		+ms500
+		font-size: $size-h4
+		line-height: 40px
+		letter-spacing: 2px
+	.work__desc
+		+msc500i
+		font-size: $size-m
+		line-height: 24px
+
+	.work__media
+		position: relative
+		margin-left: 310px
+		margin-right: 310px
+		text-align: center
+	.work__pic
+		display: inline-block
+		vertical-align: top
+		text-align: center
+		img
+			display: inline-block
+			vertical-align: top
+			font-size: 0
+	.work__href
+		position: absolute
+		top: 100%
+		margin-top: 32px
+		left: 0
+		right: 0
+		text-align: center
+
+	.work__meta
+		position: absolute
+		top: 0
+		right: 0
+		width: 270px
+		text-align: center
+		text-transform: uppercase
+		+msc700
+		p
+			position: relative
+			font-size: $size-m
+			line-height: 24px
+			letter-spacing: 2px
+		small
+			display: block
+			font-size: $size-xs
+			line-height: 20px
+			letter-spacing: 1px
+
+.work_ipad
+	.work__desc
+		// line-height: 24px
+.work_iphone
+	margin-top: 34px
+	&:before
+		top: -173px
+	.work__meta
+		top: 141px
+		right: 43px
+		&:before
+			position: absolute
+			top: -60px
+			left: 50%
+			margin-left: -49px
+			+sr(fas)
+			content: ""
+	.work__info
+		top: 326px
+.work_win
+	margin-top: 21px
+	&:before
+		top: -155px
+	.work__meta
+		top: 159px
+		right: 8px
+		&:before
+			position: absolute
+			top: -53px
+			left: 50%
+			margin-left: -45px
+			+sr(fw)
+			content: ""
+	.work__info
+		top: 324px
+	.work__href
+		margin-top: 20px
+.work_android
+	margin-top: 8px
+	&:before
+		top: -145px
+	.work__meta
+		top: 143px
+		right: 9px
+		&:before
+			position: absolute
+			top: -58px
+			left: 50%
+			margin-left: -60px
+			+sr(fa)
+			content: ""
+	.work__info
+		top: 355px
+	// .work__href
+	// 	margin-top: 20px
+.work_website
+	margin-top: 109px
+	&:before
+		top: -238px
+	.work__info
+		top: 259px
+		left: 20px
+	.work__meta
+		text-transform: none
+		top: 18px
+		right: -3px
+		width: 275px
+		p
+			font-size: $size-l
+			line-height: 28px
+			letter-spacing: 2px
+		small
+			font-size: $size-xs
+			line-height: 20px
+			letter-spacing: 1px
+			margin-top: 9px
+		&:before
+			position: absolute
+			top: -54px
+			left: 50%
+			margin-left: -63.5px
+			+sr(leta)
+			content: ""
+	.work__href
+		margin-top: 40px
+
+
+
+
+
+
