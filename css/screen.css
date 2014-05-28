@@ -46,14 +46,14 @@ strong { font-weight: normal; }
 
 .btn { display: inline-block; vertical-align: top; text-decoration: none; }
 
-.btn_app { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -411px; background-repeat: no-repeat; height: 48px; width: 155px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_app { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -271px; height: 48px; width: 155px; } }
+.btn_app { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -411px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_app { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -271px; height: 48px; width: 155px; } }
 
-.btn_gp { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -639px; background-repeat: no-repeat; height: 48px; width: 155px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_gp { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -449px; height: 48px; width: 155px; } }
+.btn_gp { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -639px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_gp { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -449px; height: 48px; width: 155px; } }
 
-.btn_win { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -827px; background-repeat: no-repeat; height: 48px; width: 240px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_win { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -800px; height: 48px; width: 240px; } }
+.btn_win { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -827px; background-repeat: no-repeat; height: 48px; width: 240px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_win { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -800px; height: 48px; width: 240px; } }
 
 .btn_link { font-size: 20px; color: #2d2f37; border-bottom: 1px solid rgba(45, 47, 55, 0.4); text-decoration: none; line-height: 24px; }
 .btn_link:hover { color: #00d89c; border-color: rgba(0, 216, 156, 0.4); }
@@ -92,13 +92,23 @@ strong { font-weight: normal; }
 
 .social { text-align: center; font-size: 0; }
 .social li { display: inline-block; vertical-align: top; padding: 0 10px; }
-.social a { display: block; }
-.social .social__facebook a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1238px; background-repeat: no-repeat; height: 48px; width: 48px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__facebook a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1178px; height: 48px; width: 48px; } }
-.social .social__linkedin a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1180px; background-repeat: no-repeat; height: 48px; width: 48px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__linkedin a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1125px; height: 48px; width: 48px; } }
-.social .social__mail a { background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1122px; background-repeat: no-repeat; height: 48px; width: 48px; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__mail a { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -1072px; height: 48px; width: 48px; } }
+.social li:hover a:before { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+.social li:hover i { filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.social a { position: relative; display: block; }
+.social a:before { position: absolute; top: 0; left: 0; right: 0; bottom: 0; content: ""; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; transition: all 0.2s ease-in; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100); opacity: 1; }
+.social i { display: block; -webkit-transition: all 0.2s ease-in; -moz-transition: all 0.2s ease-in; -o-transition: all 0.2s ease-in; transition: all 0.2s ease-in; filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0); opacity: 0; }
+.social .social__facebook a:before { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1139px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__facebook a:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1084px; height: 48px; width: 48px; } }
+.social .social__facebook i { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1354px; background-repeat: no-repeat; height: 48px; width: 49px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__facebook i { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1337px; height: 48px; width: 49px; } }
+.social .social__linkedin a:before { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1081px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__linkedin a:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1031px; height: 48px; width: 48px; } }
+.social .social__linkedin i { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1412px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__linkedin i { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1284px; height: 48px; width: 48px; } }
+.social .social__mail a:before { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1023px; background-repeat: no-repeat; height: 48px; width: 48px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__mail a:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -978px; height: 48px; width: 48px; } }
+.social .social__mail i { background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1197px; background-repeat: no-repeat; height: 48px; width: 49px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .social .social__mail i { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1137px; height: 48px; width: 49px; } }
 
 .resume { position: relative; text-align: center; margin-bottom: 53px; padding-top: 100px; }
 .resume article { margin: 0 145px; }
@@ -121,9 +131,9 @@ strong { font-weight: normal; }
 .about .about__col_lang, .about .about__col_where { font-size: 16px; line-height: 28px; letter-spacing: 1px; }
 .about .about__col_lang strong, .about .about__col_where strong { font-size: 24px; line-height: 21px; letter-spacing: 2px; }
 .about .icon { position: absolute; left: 50%; top: 50%; }
-.about .icon_platforms { margin-top: -129px; margin-left: -165px; background: url('../img/icons-sf45a57e932.png') 0 -885px no-repeat; width: 330px; height: 128px; }
-.about .icon_globe { margin-top: -82px; margin-left: -59px; background: url('../img/icons-sf45a57e932.png') 0 -152px no-repeat; width: 119px; height: 119px; }
-.about .icon_russia { margin-top: -113px; margin-left: -120px; background: url('../img/icons-sf45a57e932.png') 0 0 no-repeat; width: 240px; height: 142px; }
+.about .icon_platforms { margin-top: -129px; margin-left: -165px; background: url('../img/icons-se9b4a5fd4c.png') 0 -885px no-repeat; width: 330px; height: 128px; }
+.about .icon_globe { margin-top: -82px; margin-left: -59px; background: url('../img/icons-se9b4a5fd4c.png') 0 -152px no-repeat; width: 119px; height: 119px; }
+.about .icon_russia { margin-top: -113px; margin-left: -120px; background: url('../img/icons-se9b4a5fd4c.png') 0 0 no-repeat; width: 240px; height: 142px; }
 
 .works { padding-top: 100px; margin-bottom: 96px; }
 
@@ -149,23 +159,23 @@ strong { font-weight: normal; }
 .work_iphone { margin-top: 34px; }
 .work_iphone:before { top: -173px; }
 .work_iphone .work__meta { top: 141px; right: 43px; }
-.work_iphone .work__meta:before { position: absolute; top: -60px; left: 50%; margin-left: -49px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -697px; background-repeat: no-repeat; height: 120px; width: 98px; content: ""; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_iphone .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -853px; height: 120px; width: 98px; } }
+.work_iphone .work__meta:before { position: absolute; top: -60px; left: 50%; margin-left: -49px; background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -697px; background-repeat: no-repeat; height: 120px; width: 98px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_iphone .work__meta:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -853px; height: 120px; width: 98px; } }
 .work_iphone .work__info { top: 326px; }
 
 .work_win { margin-top: 21px; }
 .work_win:before { top: -155px; }
 .work_win .work__meta { top: 159px; right: 8px; }
-.work_win .work__meta:before { position: absolute; top: -53px; left: 50%; margin-left: -45px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -1023px; background-repeat: no-repeat; height: 89px; width: 90px; content: ""; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_win .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -978px; height: 89px; width: 90px; } }
+.work_win .work__meta:before { position: absolute; top: -53px; left: 50%; margin-left: -45px; background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1255px; background-repeat: no-repeat; height: 89px; width: 90px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_win .work__meta:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1190px; height: 89px; width: 90px; } }
 .work_win .work__info { top: 324px; }
 .work_win .work__href { margin-top: 20px; }
 
 .work_android { margin-top: 8px; }
 .work_android:before { top: -145px; }
 .work_android .work__meta { top: 143px; right: 9px; }
-.work_android .work__meta:before { position: absolute; top: -58px; left: 50%; margin-left: -60px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -281px; background-repeat: no-repeat; height: 120px; width: 120px; content: ""; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_android .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -324px; height: 120px; width: 120px; } }
+.work_android .work__meta:before { position: absolute; top: -58px; left: 50%; margin-left: -60px; background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -281px; background-repeat: no-repeat; height: 120px; width: 120px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_android .work__meta:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -324px; height: 120px; width: 120px; } }
 .work_android .work__info { top: 355px; }
 
 .work_website { margin-top: 109px; }
@@ -174,6 +184,6 @@ strong { font-weight: normal; }
 .work_website .work__meta { text-transform: none; top: 18px; right: -3px; width: 275px; }
 .work_website .work__meta p { font-size: 24px; line-height: 28px; letter-spacing: 2px; }
 .work_website .work__meta small { font-size: 16px; line-height: 20px; letter-spacing: 1px; margin-top: 9px; }
-.work_website .work__meta:before { position: absolute; top: -54px; left: 50%; margin-left: -63.5px; background-image: url('../img/icons-sf45a57e932.png'); background-position: 0 -469px; background-repeat: no-repeat; height: 160px; width: 127px; content: ""; }
-@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_website .work__meta:before { background-image: url('../img/icons-retina-s776fad1973.png'); background-size: 330px 1226px; background-position: 0 -502px; height: 160px; width: 127px; } }
+.work_website .work__meta:before { position: absolute; top: -54px; left: 50%; margin-left: -63.5px; background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -469px; background-repeat: no-repeat; height: 160px; width: 127px; content: ""; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_website .work__meta:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -502px; height: 160px; width: 127px; } }
 .work_website .work__href { margin-top: 40px; }

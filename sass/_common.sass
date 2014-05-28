@@ -241,17 +241,46 @@ strong
 		display: inline-block
 		vertical-align: top
 		padding: 0 10px
+		&:hover
+			a
+				&:before
+					+opacity(0)
+			i
+				+opacity(1)
 	a
+		position: relative
 		display: block
+		&:before
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			bottom: 0
+			content: ""
+			+transition(all .2s ease-in)
+			+opacity(1)
+	i
+		display: block
+		+transition(all .2s ease-in)
+		+opacity(0)
 	.social__facebook
 		a
-			+sr(facebook)
+			&:before
+				+sr(facebook)
+		i
+			+sr(facebook_a)
 	.social__linkedin
 		a
-			+sr(linkedin)
+			&:before
+				+sr(linkedin)
+		i
+			+sr(linkedin_a)
 	.social__mail
 		a
-			+sr(email)
+			&:before
+				+sr(email)
+		i
+			+sr(email_a)
 
 // ==========================================================================
 // Resume
