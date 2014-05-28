@@ -46,12 +46,37 @@ strong
 	display: inline-block
 	vertical-align: top
 	text-decoration: none
+
+.btn_app,
+.btn_gp,
+.btn_win
+	position: relative
+	&:before
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		content: ""
+		+transition(all .2s ease-in)
+		+opacity(0)
+	&:hover
+		&:before
+			+opacity(1)
+
 .btn_app
 	+sr(app)
+	&:before
+		+s(app_a)
 .btn_gp
 	+sr(gp)
+	&:before
+		+s(gp_a)
 .btn_win
 	+sr(win)
+	&:before
+		+s(win_a)
+
 .btn_link
 	font-size: $size-m
 	color: $dark
