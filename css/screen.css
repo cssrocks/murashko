@@ -30,7 +30,7 @@ table { border-spacing: 0; border-collapse: collapse; width: 100%; }
 body { -webkit-font-smoothing: antialiased; -moz-font-smoothing: antialiased; -ms-font-smoothing: antialiased; -o-font-smoothing: antialiased; font-family: "Museo Sans Cyrl 500 Regular", Georgia, Times, "Times New Roman", serif; font-size: 20px; color: #2d2f37; line-height: 30px; background: white; }
 
 a { color: #00d89c; text-decoration: none; }
-a:hover { color: #009e72; }
+a:hover { color: #00b884; }
 
 strong { font-weight: normal; }
 
@@ -169,7 +169,8 @@ strong { font-weight: normal; }
 .work_win .work__meta { top: 159px; right: 8px; }
 .work_win .work__meta:before { position: absolute; top: -53px; left: 50%; margin-left: -45px; background-image: url('../img/icons-se9b4a5fd4c.png'); background-position: 0 -1255px; background-repeat: no-repeat; height: 89px; width: 90px; content: ""; }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .work_win .work__meta:before { background-image: url('../img/icons-retina-s71be1fee5f.png'); background-size: 330px 1385px; background-position: 0 -1190px; height: 89px; width: 90px; } }
-.work_win .work__info { top: 324px; }
+.work_win .work__info { top: 320px; }
+.work_win .work__subtitle { margin-bottom: 16px; }
 .work_win .work__href { margin-top: 20px; }
 
 .work_android { margin-top: 8px; }
