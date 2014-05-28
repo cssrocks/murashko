@@ -52,15 +52,18 @@ strong { font-weight: normal; }
 
 .btn_app { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -411px; background-repeat: no-repeat; height: 48px; width: 155px; }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_app { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -271px; height: 48px; width: 155px; } }
-.btn_app:before { background: url('../img/icons-s70745ebd96.png') 0 -639px no-repeat; width: 155px; height: 48px; }
+.btn_app:before { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -639px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_app:before { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -502px; height: 48px; width: 155px; } }
 
 .btn_gp { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -697px; background-repeat: no-repeat; height: 48px; width: 155px; }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_gp { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -449px; height: 48px; width: 155px; } }
-.btn_gp:before { background: url('../img/icons-s70745ebd96.png') 0 -813px no-repeat; width: 155px; height: 48px; }
+.btn_gp:before { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -813px; background-repeat: no-repeat; height: 48px; width: 155px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_gp:before { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -720px; height: 48px; width: 155px; } }
 
 .btn_win { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -1001px; background-repeat: no-repeat; height: 48px; width: 240px; }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_win { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -959px; height: 48px; width: 240px; } }
-.btn_win:before { background: url('../img/icons-s70745ebd96.png') 0 -755px no-repeat; width: 240px; height: 48px; }
+.btn_win:before { background-image: url('../img/icons-s70745ebd96.png'); background-position: 0 -755px; background-repeat: no-repeat; height: 48px; width: 240px; }
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3 / 2), (min--moz-device-pixel-ratio: 2), (min-device-pixel-ratio: 2), (min-resolution: 144dppx) { .btn_win:before { background-image: url('../img/icons-retina-s510b3b6eb3.png'); background-size: 330px 1544px; background-position: 0 -773px; height: 48px; width: 240px; } }
 
 .btn_link { font-size: 20px; color: #2d2f37; border-bottom: 1px solid rgba(45, 47, 55, 0.4); text-decoration: none; line-height: 24px; }
 .btn_link:hover { color: #00d89c; border-color: rgba(0, 216, 156, 0.4); }
